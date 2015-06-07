@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_result_temperature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:hint="数据输出结果"
+            android:textSize="30sp" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:id="@+id/spinner_top_temperature"
+            android:entries="@array/temperature"
+            android:prompt="@string/tip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:id="@+id/spinner_temperature"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:entries="@array/temperature"
+            android:gravity="center"
+            android:prompt="@string/tip" />
+
+        <EditText
+            android:id="@+id/et_input_temperature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:hint="请输入数据"
+            android:inputType="number"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+</LinearLayout>

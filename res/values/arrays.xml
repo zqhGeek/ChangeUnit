@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="Conversion">
+        <item>纳米</item>
+        <item>微米</item>
+        <item>毫米</item>
+        <item>厘米</item>
+        <item>分米</item>
+        <item>米</item>
+        <item>公里</item>
+    </array>
+    
+    
+<array name="area">
+        <item>平方毫米</item>
+        <item>平方厘米</item>
+        <item>平方分米</item>
+        <item>平方米</item>
+        <item>公亩</item>
+        <item>公顷</item>
+        <item>平方千米</item>
+    </array>
+    
+
+    <array name="volume">
+        <item>立方千米</item>
+        <item>立方米</item>
+        <item>立方分米</item>
+        <item>立方厘米</item>
+        <item>立方毫米</item>
+           </array>
+    
+    
+    <array name="weight">
+        <item>吨</item>
+        <item>公顷</item>
+        <item>千克(公斤)</item>
+        <item>克</item>
+        <item>克拉</item>
+        <item>毫克</item>
+        <item>微克</item>
+    </array>
+    
+    
+    <array name="temperature">
+        <item>摄氏度</item>
+        <item>华氏度</item>
+        <item>开尔文</item>
+            </array>
+    
+    
+    <array name="time">
+        <item>年</item>
+        <item>周</item>
+        <item>日</item>
+        <item>时</item>
+        <item>分</item>
+        <item>秒</item>
+        <item>毫秒</item>
+        <item>微秒</item>
+        <item>纳秒</item>
+    </array>
+    
+    
+     <array name="speed">
+        <item>千米/秒</item>
+        <item>米/秒</item>
+        <item>千米/小时</item>
+        <item>马赫</item>
+        <item>节</item>
+        <item>英里/小时</item>
+        <item>英尺/秒</item>
+    </array>
+    
+     
+     <array name="energy">
+        <item>兆焦</item>
+        <item>千焦</item>
+        <item>焦耳</item>
+        <item>尔格</item>
+        <item>千卡(大卡)</item>
+        <item>卡</item>
+       
+    </array>
+    
+     
+    <array name="money">
+        <item>人民币</item>
+        <item>港元</item>
+        <item>台币</item>
+        <item>欧元</item>
+        <item>美元</item>
+        <item>英镑</item>
+        <item>日元</item>
+    </array>
+    
+</resources>
